@@ -1,2 +1,3 @@
 # Spring-2019-ITSE-1307
-ITSE 1307 - C++ Programming
+
+##ITSE 1307 - C++ Programming
