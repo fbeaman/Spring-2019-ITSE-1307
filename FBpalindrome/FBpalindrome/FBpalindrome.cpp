@@ -30,8 +30,10 @@ bool isPalindrome(string strpPalin)
 	for (int intI = 0; intI < intLength / 2; intI++)
 		if (strpPalin != str[intLength - 1 - intI])
 			
+			cout << "Is not a palindrome." << endl;
 			return false;
-
+	
+	cout << "Is a palindrome." << endl;
 	return true;
 }
 int main()
