@@ -22,13 +22,13 @@ Psuedo Code
 */
 
 //Boolean to check if palindrome.
-bool isPalindrome(string strPalin)
+bool isPalindrome(string strpPalin)
 {
-	int intLength = str.length(strPalin);
+	int intLength = strpPalin.length(strPalin);
 
 	//For look to check if palindrome.
 	for (int intI = 0; intI < intLength / 2; intI++)
-		if (strPalin != str[intLength - 1 - intI])
+		if (strpPalin != str[intLength - 1 - intI])
 			
 			return false;
 
@@ -51,7 +51,7 @@ int main()
 		cin >> strPalin;
 		cout << endl;
 
-		isPalindrome(strPalin);
+		isPalindrome(strpPalin);
 
 	} while (strPalin != "#");
 
